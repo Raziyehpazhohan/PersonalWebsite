@@ -1,0 +1,820 @@
+.flx{
+    display: flex;
+   align-items: center;
+    flex-wrap: wrap;
+}
+.h2txt{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ptxt{
+    width: 100%;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+    font-weight: 600;
+}
+.clr{
+    background-color: rgb(28, 92, 196);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // cursor: none;
+    // >span{
+    //     display: block;
+    //     border-radius: 50%;
+    //     position: absolute;
+    //     z-index: 999;
+    //     transform: translate(-50%, -50%);
+    //     &:nth-of-type(1){
+    //         width: 30px;
+    //         height: 30px;
+    //         border: 1px solid white;
+    //     }
+    //     &:nth-of-type(2){
+    //         width: 5px;
+    //         height: 5px;
+    //         border: 1px solid white;
+    //         transition: .5s ease-out
+
+    //     }
+    // }
+}
+main{
+display: flex;
+position: relative;
+}
+
+.cart{
+    width: 1350px;
+    height: 850px;
+    border: 1px solid gray;
+    background-color: rgb(24, 24, 24);
+    margin: 10px 0 0 70px;
+
+    >div{
+        height: 100%;
+        &:first-child{
+           @extend .flx;
+           justify-content: flex-start;    
+            >div{
+                @extend .flx;
+                justify-content: center;
+                padding: 20px;
+                width: 100%;
+                &:nth-of-type(1){
+                    @extend .flx;
+                    >section{
+                        @extend .flx;
+                        display: flex;
+                        align-items: center;
+                       &:nth-of-type(1){
+                        width: 70%;
+                        align-items: center;
+                        >span{
+                            @extend .flx;
+                            justify-content: center;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            background-color: rgba(93, 93, 93, 0.31);
+                            border: 0.5px solid rgb(81, 81, 81);
+                            fill: rgb(233, 233, 233);
+                            transform: rotate(-25deg);
+                        }
+                        >p{
+                            height: 50px;
+                            padding: 12px 0 0 20px;
+                            font-size: 26px;
+                            font-weight: 400;
+                            color: rgb(247, 247, 247);
+                            width: fit-content;
+                        }
+                        }
+                        &:nth-of-type(2){
+                            width: 30%;
+                            @extend .flx;
+                            justify-content: center;
+                            >span{
+                                @extend .flx;
+                                justify-content: center;
+                                width: 60%;
+                                height: 47px;
+                                background-color: rgba(78, 77, 77, 0.31);
+                                border-radius: 5px;
+                                color: rgb(247, 247, 247);
+                                margin: 0.9px;
+                                font-size: 22px;
+                                font-weight: 700;
+                            }
+                            >p{
+                                @extend .flx;
+                                justify-content: center;
+                               height: 45px;
+                               text-align: center;
+                               font-size: 25px;
+                               margin: 0.5px;
+                               padding: 3px;
+                               color: rgb(247, 247, 247);
+    
+                            }
+                         }
+                       
+                    }
+                }
+                &:nth-of-type(2){
+                    @extend .flx;
+                    >section{
+                        &:nth-of-type(1){
+                            width: 80%;
+                            
+                           >h2{
+                          @extend .h2txt;
+                          color: rgb(247, 247, 247);
+    
+                           }
+                           >p{
+                           @extend .ptxt;
+                           color: rgb(247, 247, 247);
+    
+                           }
+                        }
+                        &:nth-of-type(2){
+                            width: 20%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            >span{
+                                fill: rgb(247, 247, 247);
+                            }
+                            >p{
+                                color: rgb(247, 247, 247);
+    
+                                padding: 0 0 0 12px;
+                                font-weight: 700;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    background-color: rgba(78, 77, 77, 0.31);
+                    border: 1px solid rgb(81, 81, 81);
+                    border-radius: 8px;
+                    height: 75px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    >section{
+                        width: 100%;
+                        font-size: 25px;
+                        display: flex;
+                        justify-content: center;
+                       
+                        &:nth-of-type(1){
+                            width: 10%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            >div{
+                                width: 25px;
+                                height: 25px;
+                                border-radius: 50%;
+                                &:first-child{
+                                   margin-right: -7px;
+                                   opacity: 0.8;
+                                   background-color: red;
+                                }
+                                &:last-child{
+                                    background-color: orange;
+                                    opacity: 0.8;
+                                }
+                               
+                            }
+                        }
+                        &:nth-of-type(2){
+                            width: 80%;
+                            display: flex;
+                            justify-content: flex-start;
+                            >h5{
+                                margin-top: 7px;
+                                color: rgb(146, 146, 146);
+                            }
+                            >input{
+                                display: flex;
+                                justify-content: center;
+                                width: 10%;
+                                border: none;
+                               background-color: transparent;
+                               margin: 0 10px 0 10px;
+                               font-size: 20px;
+                               color: rgb(243, 241, 241);
+                               &:focus{
+                                border: none;
+                                outline: none;
+                               }
+                            }
+                        }
+                        &:nth-of-type(3){
+                            width: 10%;
+                            height: 40px;
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            >span{
+                                width: 22px;
+                                height: 22px;
+                                background-color: rgb(247, 247, 247);
+                                position: absolute;
+                                z-index: 222;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                fill: rgb(54, 54, 54);
+                                border-radius: 2px;
+                            }
+                            >div{
+                                width: 22px;
+                                height: 22px;
+                                background-color: rgb(247, 247, 247);
+                                transform: rotate(45deg);
+                                position: absolute;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(4){
+                    >section{
+                        width: 50%;
+                        &:nth-of-type(1){
+                            >h2{
+                               @extend .h2txt;
+                               color: rgb(243, 241, 241);
+                            }
+                            >p{
+                               @extend .ptxt;
+                            }
+                        }
+                        &:nth-of-type(2){
+                            width: 50%;
+                            position: relative;
+                        
+                           >input{
+                            width: 100%;
+                            height: 70px;
+                            display: flex;
+                            justify-content: center;
+                            font-size: 22px;
+                            color: rgb(243, 241, 241);
+                            background-color: rgba(78, 77, 77, 0.31);
+                            border: 1px solid rgb(81, 81, 81);
+                            border-radius: 8px;
+                            padding:0 0 0 40%;
+                           }
+                            >span{
+                                &:nth-of-type(1){
+                                top: 30%;
+                                right: 5%;
+                                position: absolute;
+                                fill:rgb(158, 158, 158);
+                                }
+                                &:nth-of-type(2){
+                                display: none;
+                                top: 30%;
+                                right: 5%;
+                                position: absolute;
+                                fill:rgb(158, 158, 158);
+                                }
+                              
+                            }
+                            >div{
+                                display: none;
+                                align-items: center;
+                                justify-content: center;
+                                position: absolute;
+                                right: 0;
+                                top: 100%;
+                                height: 350%;
+                                width: 50%;
+                                z-index: 150;
+                                flex-wrap: wrap;
+                                background-color: rgb(43, 43, 43);
+                                border-radius: 5px;
+                                >button{
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                    background-color: white;
+                                    margin: 5px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(5){
+                    >section{
+                        width: 50%;
+                        &:nth-of-type(1){
+                            >h2{
+                               @extend .h2txt;
+                               color: rgb(243, 241, 241);
+                               }
+                               >p{
+                               @extend .ptxt;
+                               }
+                        }
+                        &:nth-of-type(2){
+                            width: 50%;
+                           display: flex;
+                       
+                           >input{
+                            width: 45%;
+                            height: 70px;
+                            display: flex;
+                            justify-content: center;
+                            font-size: 22px;
+                            background-color: rgba(78, 77, 77, 0.31);
+                            border: 1px solid rgb(81, 81, 81);
+                            color: rgb(243, 241, 241);
+                            border-radius: 8px;
+                            padding:0 0 0 20%;
+                           }
+                           >p{
+                            width: 10%;
+                            display: flex;
+                            justify-content: center;
+                            align-items:flex-end;
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: rgb(243, 241, 241);
+    
+                           }
+                        }
+                    }
+                }
+                &:nth-of-type(6){
+                    >section{
+                        width: 50%;
+                        &:nth-of-type(1){
+                            >h2{
+                               @extend .h2txt;
+                               color: rgb(243, 241, 241);
+                               }
+                               >p{
+                               @extend .ptxt;
+                               }
+                        }
+                        &:nth-of-type(2){
+                            width: 50%;
+                            position: relative;
+                        
+                           >input{
+                            width: 100%;
+                            height: 70px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 25px;
+                            background-color: rgba(78, 77, 77, 0.31);
+                            border: 1px solid rgb(81, 81, 81);
+                            color: rgb(243, 241, 241);
+                            border-radius: 8px;
+                            padding:0 0 0 5%;
+                           }
+                            >span{
+                                &:nth-of-type(1){
+                                top: 30%;
+                                right: 5%;
+                                position: absolute;
+                                fill:rgb(158, 158, 158);
+                                }
+                                &:nth-of-type(2){
+                                display: none;
+                                top: 30%;
+                                right: 5%;
+                                position: absolute;
+                                fill:rgb(158, 158, 158);
+                                }
+                              
+                            }
+                            >div{
+                                display: none;
+                                align-items: center;
+                                justify-content: center;
+                                position: absolute;
+                                right: 0;
+                                top: 100%;
+                                height: 350%;
+                                width: 50%;
+                                z-index: 150;
+                                flex-wrap: wrap;
+                                background-color: rgb(43, 43, 43);
+                                border-radius: 5px;
+                                >button{
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                    background-color: white;
+                                    margin: 5px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    font-size: 30px;
+                                }
+                            }
+                        }
+                    }
+                  
+                }
+                &:nth-of-type(7){
+                    >section{
+                        width: 50%;
+                        &:nth-of-type(1){
+                            >h2{
+                               @extend .h2txt;
+                               color: rgb(243, 241, 241);
+                               }
+                               >p{
+                               @extend .ptxt;
+                               }
+                        }
+                        &:nth-of-type(2){
+                            width: 50%;
+                            position: relative;
+                        
+                           >input{
+                            width: 100%;
+                            height: 70px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 25px;
+                            background-color: rgba(78, 77, 77, 0.31);
+                            border: 1px solid rgb(81, 81, 81);
+                            color: rgb(243, 241, 241);
+                            border-radius: 8px;
+                            padding:0 0 0 5%;
+                           }
+                           >section{
+                            position: absolute;
+                            width: 40%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            top: 1%;
+                            right: 0;
+                            border-radius: 8px;
+                            background-color: rgba(235, 0, 254, 0.96);
+    
+                            >h4{
+                                width: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                color: white;
+                                height: 100%;
+                                padding-left: 17px;
+                                letter-spacing: 4px;
+                                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                text-transform: uppercase;
+                               
+                            }
+                           }
+                            >span{
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: center;
+                                top: 0%;
+                                right: 1.5%;
+                                height: 100%;
+                                position: absolute;
+                                fill:white;
+                                z-index: 100;
+                            }
+                        }
+                    }
+                  
+                }
+                &:nth-of-type(8){
+                    >button{
+                        width: 100%;
+                        height: 75px;
+                        border-radius: 7px;
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: rgb(250, 250, 250);
+                        background-image: linear-gradient(30deg, rgba(244, 0, 98, 0.936) 5%, rgba(199, 0, 254, 0.96) 50%);
+                        border: none;
+                    }
+                }
+               }
+        }
+        &:last-child{
+            width: 32%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            height: 95%;
+            >div{
+                &:nth-of-type(1){
+                    width: 15%;
+                    height: 6px;
+                    background-color: rgb(229, 255, 32);
+                    border-radius: 1px;
+                    box-shadow: 0px 10px 20px 3px rgb(229, 255, 32);
+                    z-index: 500;
+                }
+                &:nth-of-type(2){
+                    width: 50%;
+                    height: 330px;
+                    position: absolute;
+                    top: 5px;
+                    background-color: rgb(72, 70, 70);
+                    border-radius: 10px;
+                    >section{
+                        &:nth-of-type(1){
+                            width: 100%;
+                            display: flex;
+                            margin:40px 0 0 0;
+                            >span{
+                                width: 33%;
+                                &:nth-of-type(1){
+                                    // padding-left: 40px;
+                                    fill: rgb(164, 164, 164);
+                                    transform: rotate(90deg);
+                                }
+                                &:nth-of-type(2){}
+                                &:nth-of-type(3){
+                                    padding-right: 20px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2){
+                            color: white;
+                            width: 100%;
+                            padding-top: 15px;
+                            margin-top: 15px;
+                          
+                            >p{
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-end;
+                                margin-bottom: 0;
+                                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                            }
+                        }
+                        &:nth-of-type(3){
+                            color: white;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            >p{
+                                margin: 0;
+                                font-size: 20px;
+                                padding:0 5px 0 5px;
+                                &:nth-of-type(1){
+                                    padding-bottom: 20px;
+                                    font-size: 30px;
+                                }
+                               
+                            }
+                        }
+                        &:nth-of-type(4){
+                            width: 100%;
+                            display: flex;
+                            >p{
+                                width: 50%;
+                                font-size: 8px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                color: rgb(213, 213, 213);
+                                >span{
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    padding-right: 40px;
+                                }
+                                &:nth-of-type(2){
+                                  
+                                    >span{
+                                        display: flex;
+                                        justify-content: center;
+                                        padding-right: 0px;
+                                        padding-left: 10px;
+                                        &:nth-of-type(1){
+                                            letter-spacing: 1px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(5){
+                            background-color:rgb(229, 255, 32);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 0;
+                            padding-bottom: 0;
+                            padding: 8px;
+                            border-bottom-left-radius: 10px;
+                            border-bottom-right-radius: 10px;
+                            >p{
+                                padding-top: 5px;
+                                margin-top: 8px;
+                                width: 50%;
+                                font-family:'Courier New';
+                                font-size: 25px;
+                                display: flex;
+                                justify-content: center;
+                                font-weight: 800;
+                                letter-spacing: 1px;
+                            }
+                            >span{
+                                display: flex;
+                                justify-content: center;
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    width: 95%;
+                    height: 83%;
+                    margin-top: 120px;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    >section{
+                            width: 77%;
+                            height: 97%;
+                            border-radius: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-end;
+                            flex-wrap: wrap;
+                            background-color: rgb(56, 55, 55);
+                            >div{
+                                &:nth-of-type(1){
+                                    width: 100%;
+                                    margin: 0;
+                                    padding: 0;
+                                    padding-top: 250px;
+                                    display: flex;
+                                    justify-content: center;
+                                    flex-wrap: wrap;
+                                    >div{
+                                        width: 83%;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            >section{
+                                            width: 50%;
+                                            &:nth-of-type(1){
+                                            color: rgb(168, 168, 168);
+                                            }
+                                            &:nth-of-type(2){
+                                                display: flex;
+                                                justify-content: flex-end;
+                                                color: white;
+                                                >span{
+                                                width: 18px;
+                                                height: 18px;
+                                                border-radius: 50%;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                background-color: white;
+                                                padding: 2px;
+                                                margin: 3px;
+                                                }
+                                            }
+                                            }
+                                        }
+                                    
+                                    }
+                                &:nth-of-type(2){
+                                    width: 100%;
+                                    height: 10%;
+                                    padding-bottom: 0;
+                                    display: flex;
+                                    align-items: center;
+                                    >span{
+                                        &:nth-of-type(1){
+                                            width: 8%;
+                                            height: 50px;
+                                            background-color: rgb(24, 24, 24);
+                                            border-bottom-right-radius: 50%;
+                                            border-top-right-radius: 50%;
+
+                                        }
+                                        &:nth-of-type(2){
+                                            width: 84%;
+                                            border-top: 1px dashed rgb(96, 95, 95);
+                                        }
+                                        &:nth-of-type(3){
+                                            width: 8%;
+                                            height: 50px;
+                                            background-color: rgb(24, 24, 24);
+                                            border-top-left-radius:50%;
+                                            border-bottom-left-radius:50%;
+
+                                        }
+                                    }
+                                }
+                                &:nth-of-type(3){
+                                    margin-top: 0;
+                                    padding-top: 0;
+                                    width: 90%;
+                                    display: flex;
+                                    justify-content: center;
+                                    >section{
+                                       
+                                        &:nth-of-type(1){
+                                            padding-left: 10px;
+                                            padding-bottom: 10px;
+                                            width: 70%;
+                                            >span{
+                                                padding-left: 10px;
+                                                width: 100%;
+                                                color: rgb(168, 168, 168);
+                                                padding-bottom: 4px;
+                                            }
+                                            >div{
+                                                padding-left: 10px;
+                                                width: 100%;
+                                                display: flex;
+                                                padding-top: 5px;
+                                                >p{
+                                                    &:nth-of-type(1){
+                                                        font-size: 30px;
+                                                        color: white;
+                                                    }
+                                                    &:nth-of-type(2){
+                                                        font-size: 15px;
+                                                        color: white;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        padding-top: 6px;
+    
+                                                    }
+                                                    &:nth-of-type(3){
+                                                        font-size: 18px;
+                                                        color: white;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        padding-top: 6px;
+    
+                                                    }
+                                                    &:nth-of-type(4){
+                                                        color: rgb(168, 168, 168);
+                                                        display: flex;
+                                                        align-items: center;
+                                                        font-size: 18px;
+                                                        padding-left: 9px;
+                                                        padding-top: 6px;
+    
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:nth-of-type(2){
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            padding-bottom: 25px;
+                                            width: 20%;
+                                        }
+                                    }
+                                }
+                            
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+#mytimeout{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 300px auto;
+    >h4{
+      
+        font-size: 50px;
+        color: rgb(6, 221, 6);
+    }
+}

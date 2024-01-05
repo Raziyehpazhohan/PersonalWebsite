@@ -1,0 +1,543 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+main > section {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  z-index: 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main > section > figure {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 5px;
+}
+main > section > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+main > section > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 5px;
+  color: rgb(0, 235, 0);
+}
+main > section > h3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding: 5px;
+  color: rgb(244, 244, 244);
+}
+main > section > h5 {
+  margin-top: 8px;
+  padding: 5px;
+}
+main > section > h4 {
+  margin: 7px;
+  color: rgb(244, 244, 244);
+}
+main > div:nth-of-type(1) {
+  position: absolute;
+  top: 0;
+  left: 80%;
+}
+main > div:nth-of-type(1) > button {
+  width: 80px;
+  height: 40px;
+  background-color: rgba(1, 1, 232, 0.784);
+  border-radius: 10px;
+  border: 1px solid rgba(1, 1, 232, 0.784);
+  color: rgb(237, 237, 237);
+  margin: 100px 0 0 200px;
+}
+main > div:nth-of-type(1) > div {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 20%;
+  z-index: 1000;
+  background-color: rgba(1, 1, 232, 0.784);
+  color: rgb(237, 237, 237);
+  border-radius: 5px;
+  margin: 90px 0 0 0;
+}
+main > div:nth-of-type(1) > div > div {
+  width: 100%;
+}
+main > div:nth-of-type(1) > div > div > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main > div:nth-of-type(1) > div > section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+main > div:nth-of-type(1) > div > section > button {
+  background-color: rgba(1, 1, 232, 0.784);
+  margin: 10px;
+  border: none;
+}
+main > div:nth-of-type(2) {
+  width: 100%;
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(234, 233, 233);
+  border-radius: 10px;
+}
+main > div:nth-of-type(2) > div {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+}
+main > div:nth-of-type(2) > div > div {
+  width: 80%;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) {
+  background-color: rgba(1, 1, 232, 0.784);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div {
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+  height: 70%;
+  margin-top: 40px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div {
+  display: flex;
+  height: 100%;
+  transition: 1s;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > svg {
+  position: absolute;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > svg:nth-of-type(1) {
+  top: 60px;
+  left: 100px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > svg:nth-of-type(2) {
+  top: 109px;
+  left: 253px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > div > div:nth-of-type(1) > svg:nth-of-type(3) {
+  top: 220px;
+  left: 260px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  top: 0;
+  left: 0;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div {
+  width: 80%;
+  height: 70%;
+  position: relative;
+  border-radius: 30%;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > svg {
+  position: absolute;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > svg:nth-of-type(1) {
+  top: 23px;
+  left: 66px;
+  transform: rotate(49deg);
+  fill: rgba(232, 152, 4, 0.974);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > svg:nth-of-type(2) {
+  top: 200px;
+  left: 401px;
+  transform: rotate(125deg);
+  fill: rgba(3, 235, 3, 0.941);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > svg:nth-of-type(3) {
+  top: -12px;
+  left: 201px;
+  transform: rotate(179deg);
+  fill: rgba(3, 227, 3, 0.947);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > svg:nth-of-type(4) {
+  top: 310px;
+  left: 376px;
+  transform: rotate(309deg);
+  fill: rgba(255, 217, 0, 0.976);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > svg:nth-of-type(5) {
+  top: 30px;
+  left: 330px;
+  transform: rotate(211deg);
+  fill: rgba(255, 217, 0, 0.976);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(1) > div > span {
+  position: absolute;
+  top: 224px;
+  left: 72px;
+  width: 9px;
+  height: 12px;
+  background-color: rgba(240, 12, 12, 0.929);
+  border-radius: 50%;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(2) {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 20%;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(2) > h4 {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(2) > h4:nth-of-type(2) {
+  padding-bottom: 10px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(2) > p {
+  color: rgb(156, 184, 238);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(2) > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(1) > div > section:nth-of-type(2) > div > span {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(156, 185, 239);
+  border-radius: 50%;
+  margin: 2px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 80px 40px 0 40px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+  width: 100%;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) {
+  width: 100%;
+  padding-bottom: 10px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > span {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  border: 0.5px solid rgba(220, 220, 220, 0.588);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(1) > span > svg {
+  transform: rotate(90deg);
+  fill: rgb(87, 87, 247);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > h2 {
+  color: rgba(50, 50, 50, 0.828);
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(2) > p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: gray;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > input {
+  width: 62%;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 7px 12px 7px 12px;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(195, 195, 195);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > input:focus {
+  border: 1px solid rgba(1, 1, 232, 0.784);
+  outline: none;
+  background-color: white;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(3) > input:nth-of-type(1) {
+  margin: 33px 0 15px 0;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(4) {
+  width: 100%;
+  margin-top: 8px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > input {
+  margin-bottom: 15px;
+  width: 12px;
+  margin-right: 4px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > p:nth-of-type(1) {
+  padding-right: 100px;
+  font-size: 10px;
+  color: rgb(171, 171, 171);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(4) > p:nth-of-type(2) {
+  justify-content: center;
+  display: flex;
+  font-size: 10px;
+  margin-left: 40px;
+  color: rgba(1, 1, 232, 0.784);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(5) {
+  display: flex;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(5) > button {
+  width: 61.5%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  color: rgb(244, 244, 244);
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(5) > button:nth-of-type(1) {
+  background-color: rgba(1, 1, 232, 0.784);
+  border: 0.5px solid rgba(0, 0, 130, 0.784);
+  color: rgb(244, 244, 244);
+  padding: 9px;
+  font-size: 16px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(5) > button:nth-of-type(2) {
+  color: rgb(148, 146, 146);
+  background-color: rgba(255, 255, 255, 0.784);
+  border: 0.5px solid rgba(136, 136, 136, 0.622);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: 11px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(5) > button:nth-of-type(2) > span {
+  padding-right: 7px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(6) {
+  padding-top: 140px;
+  color: rgb(148, 146, 146);
+  font-size: 11px;
+}
+main > div:nth-of-type(2) > div > div:nth-of-type(2) > div > div:nth-of-type(6) > p:nth-of-type(2) {
+  color: rgba(1, 1, 232, 0.784);
+  font-weight: 700;
+  padding-left: 12px;
+}
+main > div:nth-of-type(2) > div > section {
+  background-color: rgb(1, 1, 244);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0%;
+  height: 0%;
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(1) {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 7;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(1) > svg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(1) > svg > g > circle {
+  fill: rgba(1, 1, 244, 0.957);
+  stroke: rgba(238, 246, 18, 0.852);
+  stroke-width: 15px;
+  animation: mysvgone linear 2s forwards;
+  stroke-dasharray: 0 861.616px;
+  stroke-dashoffset: 215.404px;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(1) > svg > g > text {
+  font-size: 30px;
+  fill: rgb(236, 236, 236);
+  font-weight: 700;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(2) {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  transition: 1.5s;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(2) > span {
+  font-size: 50px;
+  display: none;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) {
+  position: absolute;
+  width: 500px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div {
+  position: relative;
+  width: 0%;
+  height: 0%;
+  transition: 1.5s;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div > svg {
+  display: none;
+  position: absolute;
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div > svg:nth-of-type(1) {
+  top: 22%;
+  left: 24%;
+  transform: rotate(49deg);
+  fill: rgb(249, 163, 4);
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div > svg:nth-of-type(2) {
+  top: 25%;
+  left: 30%;
+  transform: rotate(125deg);
+  fill: rgb(235, 11, 3);
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div > svg:nth-of-type(3) {
+  top: 71%;
+  left: 25%;
+  transform: rotate(179deg);
+  fill: rgba(3, 227, 3, 0.947);
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div > svg:nth-of-type(4) {
+  top: 70%;
+  left: 70%;
+  transform: rotate(309deg);
+}
+main > div:nth-of-type(2) > div > section > div:nth-of-type(3) > div > svg:nth-of-type(5) {
+  top: 40%;
+  left: 75%;
+  transform: rotate(211deg);
+  fill: rgb(190, 11, 255);
+}
+
+@keyframes mysvgone {
+  to {
+    stroke-dasharray: 661.616px 200px;
+  }
+}/*# sourceMappingURL=global.css.map */

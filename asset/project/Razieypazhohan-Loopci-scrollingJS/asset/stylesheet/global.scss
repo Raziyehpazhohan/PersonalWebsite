@@ -1,0 +1,657 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+   transform: sc;
+>main{
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    >div{
+           display: flex;
+           justify-content: center;
+           flex-wrap:wrap;
+           justify-content: center;
+            &:nth-of-type(1){
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            z-index: 700;
+            width: calc(100% - 20px);
+                >section{
+
+                    &:nth-of-type(1){
+                        width: 45%;
+                        display: flex;
+                        align-items: center;
+                        >figure{
+                            >img{
+                                padding-left: 40px;
+                            }
+                        }
+                        
+                    }
+                    &:nth-of-type(2){
+                        width: 10%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      >p{
+                        padding: 10px;
+                        line-height: 50px;
+                        font-family: "Lasco-Regular";
+                        font-size: 1.5em;
+                        color: #020204;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                        font-family:cursive;                           
+
+                      }
+                      >span{
+                       padding-bottom: 20px;
+                       font-size: 1.5rem;
+                      }
+                    }
+    
+                }
+                >nav{
+                    width: 45%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    >ul{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                       margin: 0;
+                       padding: 0;
+                        width: 100%;
+                        >li{
+                            list-style-type: none;
+                            padding: 40px;
+                            line-height: 50px;
+                            font-family: "Lasco-Regular";
+                            font-size: 1.5em;
+                            color: #020204;
+                            text-transform: uppercase;
+                            font-family:cursive;                           
+
+                        }
+                    }
+                }
+                >img{
+                    width: 25%;
+                    display: block;
+                    position: fixed;
+                    bottom: 0;
+                    right: 1.5%;
+                    z-index: 500;
+                }
+             
+            }
+            &:nth-of-type(2){
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                flex-wrap: wrap;
+                background-image: linear-gradient(rgba(252,230,0)1% ,rgb(252, 190, 0) 55%);
+
+                >div{
+                    &:nth-of-type(1){
+                        >div{
+                            display: flex;
+                            justify-content:flex-start;
+                            align-items: center;
+                            width: 100%;
+                            &:nth-of-type(1){
+                                width: 55%;
+                                display: flex;
+                                height: 100%;
+                                align-items:center;
+                                >h1{
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;                          
+                                    align-items:flex-end;
+                                    font-family:cursive;                           
+                                    font-size: 80px;
+                                    color: #020204;
+                                    line-height: normal;
+                                    letter-spacing: 1px;
+                                    font-weight: 800;
+                                    text-transform: uppercase;
+                                 }
+                            }
+                            &:nth-of-type(2){
+                                width: 40%;  
+                                >picture{
+                                    width: 32%;
+                                    display: flex;
+                                    justify-content: center;
+                                    position: fixed;
+                                    z-index: 50;
+                                    top: 27%;
+                                    right:10%;
+                                    >img{
+                                        width: 60%;
+                                        
+                                    }
+                                 
+                                    }     
+            
+        }
+                           
+    }
+                    }
+                    &:nth-of-type(2){               
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;   
+                            align-items: flex-end;
+                            position: fixed;
+                            bottom: 0px;
+                            left: 0px;
+                            z-index: 500;
+                            >section{
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                padding-bottom: 50px;
+                                >div{
+                                    padding: 8px;
+                                }
+                            }
+                        
+                    }
+                    }
+                }  
+            &:nth-of-type(3){
+                    height: 100vh;
+                    width: 100%;
+                    position: relative;
+                    background-image: linear-gradient(rgba(252,190,0)1% ,rgb(252, 172, 0) 55%);
+
+                    >div{
+                        height: 100%;
+                        width: 100%;
+                        >div{
+                            z-index: 52;
+                            position: absolute;
+                            @for $i from 1 through 100{
+                                &:nth-of-type(#{$i}){
+                                    left:random(4000)+px; 
+                                    top:random(791)+px; 
+                                    >img{
+                                        width: 45px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } 
+            &:nth-of-type(4){
+                height: 100vh;
+                background-image: linear-gradient(rgba(252,172,0)1% ,rgb(252, 160, 0) 55%);
+
+                >div{
+                    width: 100%;
+                    height: 100%;
+                   
+                    >div{
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       
+                        &:nth-of-type(1){
+                        }
+                        &:nth-of-type(2){
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            >section{
+                                height: 30%;
+                                width: 100%;
+                                padding-top: 50px;
+                                margin: 0;
+                                padding: 0;
+                                >p{
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    margin: 0;
+                                    padding: 0;
+                                    text-transform: uppercase;
+                                    &:nth-of-type(1){
+                                        font-family:cursive;                           
+                                        font-size: 3em;
+                                        color: #020204;
+                                        line-height: normal;
+                                        font-weight: 800;
+                                    }
+                                    &:nth-of-type(2){
+                                        font-size: 1.3rem;
+                                        font-family:cursive;
+                                        color: #020204;
+                                        line-height: normal;                         
+                                    }
+                                    &:nth-of-type(3){
+                                        font-size: 1.3rem;
+                                        font-family:cursive;
+                                        color: #020204;
+                                        line-height: normal;
+                                    }
+
+                                }
+                             
+                               
+                            }
+                           
+
+                        }
+                    }
+                }
+                } 
+            &:nth-of-type(5){
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                margin: 0;
+                padding: 0;
+                background-image: linear-gradient(rgba(252,160,0)1% ,rgb(252, 160, 0) 55%);
+
+                >div{
+                    height:0%;
+                    width: 0%; 
+                    background-color: #fc6e0a;
+                    border-radius: 50%;
+                    margin: 0;
+                    padding: 0;
+                }
+                }  
+            &:nth-of-type(6){
+                height: 100vh;
+                background-color: #fc6e0a;
+                width: 100%;
+                >div{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    >div{
+                        width: 50%;
+                        &:nth-of-type(1){
+                            padding-left: 60px;
+                            >p{
+                                text-transform: uppercase;
+                                &:nth-of-type(1){
+                                    width: 100%;
+                                    font-family:cursive;                           
+                                    font-size: 3em;
+                                    color: #020204;
+                                    line-height: normal;
+                                    font-weight: 800;
+                                }
+                                &:nth-of-type(2){
+                                    width: 100%;
+                                    font-size: 1.3rem;
+                                    font-family:cursive;
+                                    color: #020204;
+                                    line-height: normal;    
+                                }
+                            }
+                        }
+                        &:nth-of-type(2){}
+                    }
+                }
+                } 
+            &:nth-of-type(7){
+                    height: 100vh;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: linear-gradient(360deg, rgb(252, 110, 68)1% ,rgb(252, 110, 10) 55% );
+                    >div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        >div{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            &:nth-of-type(1){
+                                >picture{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 80%;
+                                    >img{
+                                        width: 55%;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(2){}
+                        }
+                    }
+                } 
+            &:nth-of-type(8){
+                        height: 100vh;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-image: linear-gradient(360deg, rgb(252, 110, 100)1% ,rgb(252, 110, 68) 55% );
+
+                        >div{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            >div{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                &:nth-of-type(1){
+                                    >picture{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 80%;
+                                        >img{
+                                            width: 55%;
+                                        }
+                                    }
+                                }
+                                &:nth-of-type(2){}
+                            }
+                        }
+                } 
+            &:nth-of-type(9){
+                        height: 100vh;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-image: linear-gradient(360deg, rgb(252, 110, 140)1% ,rgb(252, 110, 100) 55% );
+
+                        >div{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            >div{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                &:nth-of-type(1){
+                                    >picture{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 80%;
+                                        >img{
+                                            width: 55%;
+                                        }
+                                    }
+                                }
+                                &:nth-of-type(2){}
+                            }
+                        }
+                } 
+            &:nth-of-type(10){
+                    height: 100vh;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: linear-gradient(360deg, rgb(252, 110, 180)1% ,rgb(252, 110, 140) 55% );
+
+                    >div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        >div{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            &:nth-of-type(1){
+                                >picture{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 80%;
+                                    >img{
+                                        width: 55%;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(2){}
+                        }
+                    }
+                } 
+            &:nth-of-type(11){
+                        height: 100vh;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-image: linear-gradient(360deg, rgb(252, 110, 220)1% ,rgb(252, 110, 180) 55% );
+
+                        >div{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            >div{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                &:nth-of-type(1){
+                                    >picture{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 80%;
+                                        >img{
+                                            width: 55%;
+                                        }
+                                    }
+                                }
+                                &:nth-of-type(2){}
+                            }
+                        }
+                }  
+            &:nth-of-type(12){
+                height: 100vh;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                background-image: linear-gradient(360deg, rgb(252, 110, 250)1% ,rgb(252, 110, 220) 55% );
+
+            }  
+            &:nth-of-type(13){
+                height: 100vh;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                background-image: linear-gradient(360deg, rgb(252, 110, 252)1% ,rgb(252, 110, 252) 55% );
+                >div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    >picture{
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                    }
+                }
+            }   
+            &:nth-of-type(14){
+
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(360deg,rgb(237, 110, 252) 1% ,rgb(252, 110, 252) 55% );
+                >div{
+                    display: flex;
+                    justify-content: center;
+                    align-items:flex-end;
+                    >picture{
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            } 
+            &:nth-of-type(15){
+
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(360deg, rgb(222, 110, 252)1% ,rgb(237, 110, 252) 55% );
+                >div{
+                    display: flex;
+                    justify-content: center;
+                    align-items:flex-end;
+                    >picture{
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        >img{
+                            width: 10%;
+                        }
+                    }
+                }
+            }  
+            &:nth-of-type(16){
+                width: 100%;
+                height: 100vh;
+
+                background-image: linear-gradient(360deg, rgb(207, 110, 252)1% ,rgb(222, 110, 252) 55% );
+                >div{
+                    display: flex;
+                    justify-content: center;
+                    align-items:flex-end;
+                    >picture{
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        >img{
+                            width: 10%;
+                        }
+                    }
+                }
+            }      
+            &:nth-of-type(17){
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(360deg, rgb(192, 110, 252)1% ,rgb(207, 110, 252) 55% );
+                >div{
+                    display: flex;
+                    justify-content: center;
+                    align-items:flex-end;
+                    >picture{
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        >img{
+                            width: 10%;
+                        }
+                    }
+                }
+            }  
+            &:nth-of-type(18){
+                height: 100vh;
+                width: 100%;
+                background-image: linear-gradient(360deg, rgb(175, 110, 252)1% ,rgb(191, 110, 252) 55% );
+            }     
+            &:nth-of-type(19){
+                height: 100vh;
+                width: 100%;
+                background-image: linear-gradient(360deg, rgb(170, 110, 252)1% ,rgb(175, 110, 252) 55% );
+            }  
+            &:nth-of-type(20){
+               
+                height: 100vh;
+                width:100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: linear-gradient(360deg, rgb(150, 110, 252)40% ,rgb(170, 110, 252) 99% );
+                >div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   
+                        >div{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 50%;
+                            >p{
+                                display: flex;
+                                justify-content: center;
+                                width: 100%;
+                                padding: 0;
+                                margin: 0;
+                                font-family:cursive;                           
+                                font-size: 20px;
+                                color: #020204;
+                                line-height: normal;
+                                letter-spacing: 1px;
+                                font-weight: 500;
+                                text-transform: uppercase;
+    
+                            }
+                        }
+                    
+                  
+                }
+            }    
+            &:nth-of-type(21){
+                height: 100vh;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+               position: sticky;
+              >picture{
+                width: 100%;
+                >img{
+                    width: 100%;
+                }
+              }
+             
+            }     
+            &:nth-of-type(22){
+                height: 30vh;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+               
+            }   
+        }
+                     
+    }
+              
+              
+}
+        
+  
+      
+
+   

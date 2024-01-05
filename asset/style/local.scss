@@ -1,0 +1,674 @@
+@media screen and (max-width:576px){
+    .mypicture{
+        background-size: 65% auto;
+        margin-bottom: -115px;
+    }
+    .one{
+        margin-left: 100px;
+        >h5{
+            font-size: 1rem;
+            }
+            >h1{
+                font-size: 3.4375rem;
+            }
+            >p{
+                font-size: 0.7rem;
+            }
+            >a{
+                padding: 8px 17px ;
+                font-size: 0.7rem;
+            }
+    }
+    .career{
+        width: 100%;
+        height: 40%;
+        padding-top: 0px;
+        margin-top: -20px;
+        >a{
+            padding: 0px 15px ;
+        }
+        >h2{
+            font-size: 3.5rem;
+        }
+    }
+    .bgbiography{
+        width: 260px;
+        height: 260px;
+        margin-top: 150px;
+    }
+    .biography{
+        width: 70%;
+        height: 43%;
+        top: 210px;
+        right: 44px;
+        margin-right:-41px;
+
+        >svg{
+            width: 230px;
+            height: 170px;
+            padding-bottom: 30px;
+            padding-right: 10px;
+            >text{
+                font-size: 2rem;
+            }
+        }
+    }
+    .subbiography{
+        margin-top: -140px;
+            margin-left: 0;
+            padding-left: 0;
+
+            >img{
+                width: 100px;
+                height: 150px;
+            }
+    }
+    .project{
+        margin-top: -30px;
+        padding-right: 55px;
+
+        >div{
+            &:nth-of-type(1){
+                width:165px;
+                height: 165px; 
+            }
+            &:nth-of-type(2){
+                top: 43%;
+                left: 2%;
+                >figure{
+                    >img{
+                        width: 30%;
+                        height: 30%;
+                    }
+                }
+            }
+        }
+
+    }
+    .txtpazhohan{
+        font-size: 1.6rem !important;
+        padding-left: 20px;
+    }
+    .txtproject{
+        height: 40%;
+        width: 80%;
+        padding-top: 0px;
+        >h2{
+            font-size: 2rem;
+        }
+    }
+    .skill{
+        >div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >div{
+                width: 44%;
+                height: 40%;
+                top: 6%;
+                left: 30%;
+            }
+            >figure{
+                display: flex;
+                justify-content: center;
+                >img{
+                    width: 55%;
+                    height: 55%;
+                }
+            }
+        }
+    }
+    .txtskill{
+        height: 40%;
+        width: 100%;
+        padding-left: 40px;
+        margin-top: -180px;
+        >h2{
+            font-size: 3.9rem;
+        }
+    }
+    .bgskill{
+        margin-top: 80px;
+        >figure{
+            >img{
+                width: 160px;
+                height: 250px;
+            }
+        }
+    }
+    .mytxtskill{
+    font-size: 3rem !important;
+    padding-right: 300px;
+    padding-bottom: 140px;
+    }
+    .logo{
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        >h3{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-top: 20px;
+        }
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    .myallproject{
+        padding: 120px 120px 0 120px;
+    }
+    .myallproject2{
+        padding: 120px 120px 0 120px;
+    }
+    .ulmenu{
+        width: 55%;
+    }
+    .superskill{
+        padding-top: 290px;
+    }
+}
+
+@media screen and (min-width:576px){
+    .mypicture{
+        background-size: 55% auto;
+        margin-bottom: 0px;
+    }
+    .superskill{
+        padding-top: 180px;
+    }
+    .one{
+        margin-left: 100px;
+        >h5{
+            font-size: 1rem;
+            }
+            >h1{
+                font-size: 3.4375rem;
+            }
+            >p{
+                font-size: 1rem;
+            }
+            >a{
+                padding: 10px 20px ;
+                font-size: 1rem;
+            }
+    }
+    .career{
+        width: 100%;
+        height: 40%;
+        padding-top: 50px;
+        margin-top: 0px;
+        >a{
+            padding: 0px 15px ;
+        }
+        >h2{
+            font-size: 3.5rem;
+        }
+    }
+    .bgbiography{
+        width: 510px;
+        height: 510px;
+        margin-bottom: 0px;
+    }
+    .biography{
+        width: 80%;
+        height: 80%;
+        top: 45px;
+        right: 40px;
+        margin-right:-56px;
+        >svg{
+            width: 500px;
+            height: 400px;
+            >text{
+                font-size: 4rem;
+            }
+        }
+    }
+    .subbiography{
+        margin-top: -120px;
+        margin-left: 0;
+        padding-left: 0;
+        >img{
+            width: 300px;
+            height: 471px;
+        }
+    }
+    .project{
+        margin-top: -300px;
+        padding-left: 70px;
+        >div{
+            &:nth-of-type(1){
+                width:315px;
+                height: 315px; 
+            }
+            &:nth-of-type(2){
+                top: 60%;
+                left: 28%;
+                >figure{
+                    >img{
+                        width: 60%;
+                        height: 60%;
+                    }
+                }
+            }
+        }
+
+    }
+    .txtproject{
+        height: 40%;
+        width: 100%;
+        padding-top: 80px;
+        >h2{
+            font-size: 3.5rem;
+        }
+    }
+    .txtpazhohan{
+        font-size: 3.5rem;
+        padding-left: 0px;
+    }
+    .skill{
+        >div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >div{
+                width: 63%;
+                height: 55%;
+                top: 8%;
+                left: 20%;
+            }
+            >figure{
+                display: flex;
+                justify-content: center;
+                >img{
+                    width: 80%;
+                    height: 80%;
+                }
+            }
+        }
+    }
+    .mytxtskill{
+        font-size: 4rem !important;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        }
+    .txtskill{
+        height: 40%;
+        width: 100%;
+        padding-left: 50px;
+        margin-top: -70px;
+        >h2{
+            font-size: 3.5rem;
+        }
+    }
+    .logo{
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        >h3{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-top: 20px;
+        }
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    .myallproject{
+        padding: 120px 120px 0 120px;
+    }
+    .myallproject2{
+        padding: 120px 120px 0 120px;
+    }
+    .ulmenu{
+        width: 52%;
+    }
+    .bgskill{
+        margin-top: 0px;
+        >figure{
+            >img{
+                width: 250px;
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px){
+    .mypicture{
+        background-size: 35% auto;
+    }
+    .one{
+    margin-left:-60px;
+    >h5{
+        font-size: 0.8rem;
+        }
+        >h1{
+            font-size: 2.4375rem;
+            margin: 16px 0 0;
+
+        }
+        >p{
+            font-size: 0.8rem;
+        }
+        >a{
+            padding: 5px 10px ;
+            font-size: 0.8rem;
+            line-height: 1.4;
+            margin: 20px 0 0 0;
+        }
+    }
+    .career{
+        width: 50%;
+        height: 60%;
+        padding-top: 50px;
+        margin-top: 0px;
+        >a{
+            padding: 10px 25px ;
+        }
+        >h2{
+            font-size: 2.9rem;
+        }
+    }
+    .bgbiography{
+        width: 380px;
+        height: 380px;
+    }
+    .biography{
+        width: 80%;
+        height: 80%;
+        top: 15px;
+        right: 37px;
+        margin-right:0px;
+>svg{
+    width: 300px;
+    height: 250px;
+    >text{
+        font-size: 2.5rem;
+    }
+}
+    }   
+    .subbiography{
+        margin-top: 70px;
+    }
+    .project{
+        margin-top: 0px;
+        >div{
+            &:nth-of-type(1){
+                width: 320px;
+                height: 310px; 
+            }
+            &:nth-of-type(2){
+                top: 65%;
+                left: 10%;
+                >figure{
+                    >img{
+                        width: 60%;
+                        height: 60%;
+                    }
+                }
+            }
+        }
+
+    }
+    .txtproject{
+        height:60%;
+        width: 50%;
+        >h2{
+            font-size: 2.9rem;
+        }
+    }
+    .mytxtproject{
+        font-size: 3.5rem !important;
+    }
+    .skill{
+        >div{
+            >div{
+                width: 62%;
+                height: 53%;
+                top: 42px;
+                right: 0px;
+            }
+            >figure{
+                >img{
+                    width: 70%;
+                    height:70%;
+                }
+            }
+        }
+    }
+    .txtskill{
+        height: 40%;
+        width: 50%;
+        padding-left: 60px;
+        margin-top: 0px;
+        >h2{
+            font-size: 3.5rem;
+        }
+    }
+    .mytxtskill{
+        font-size: 4rem !important;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        }
+    .logo{
+        justify-content: flex-start;
+        display: flex;
+        >h3{
+            display: flex;
+            justify-content:flex-start;
+        }
+    }
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .myallproject{
+        padding: 90px 0px 0px 0px;
+    }
+    .myallproject2{
+        padding: 60px 0px 0px 0px;
+    }
+    .ulmenu{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:992px){
+    .one{
+        >h5{
+            font-size: 1rem;
+            }
+            >h1{
+                font-size: 3.4375rem;
+            }
+            >p{
+                font-size: 1rem;
+            }
+            >a{
+                padding: 10px 20px ;
+                font-size:1rem;
+            }
+        }
+        .career{
+            width: 50%;
+            height: 60%;
+            padding-top: 50px;
+            margin-top: 0px;
+            >a{
+                padding: 10px 25px ;
+            }
+            >h2{
+                font-size: 3rem;
+            }
+        }
+        .bgbiography{
+            width: 510px;
+            height: 510px;
+    
+        }
+        .subbiography{
+            margin-top:-120px;
+        }
+        .biography{
+            width: 80%;
+            height: 80%;
+            top: 20px;
+            right: 40px;
+            margin-right:0px;
+            >svg{
+                width: 370px;
+                height: 330px;
+                >text{
+                    font-size: 3.3rem;
+                }
+            }
+        }
+        .project{
+            >div{
+                &:nth-of-type(1){
+                    width: 370px;
+                    height: 370px; 
+                }
+                &:nth-of-type(2){
+                    top: 60%;
+                    left: 10%;
+                    >figure{
+                        >img{
+                            width: 80%;
+                            height: 80%;
+                        }
+                    }
+                }
+            }
+    
+        }
+        .txtproject{
+            height:60%;
+            width: 50%;
+            padding-top: 0px;
+            >h2{
+                font-size: 2.9rem;
+            }
+        }
+        .txtpazhohan{
+            font-size: 3.5rem !important;
+            padding-left: 35px;
+        }
+        .txtskill{
+            height: 60%;
+            width: 50%;
+            padding-left: 60px;
+            >h2{
+                font-size: 3.75rem;
+            }
+        }
+        .mytxtskill{
+            font-size: 4rem !important;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            }
+        .myallproject{
+            padding: 120px 120px 0 120px;
+        }
+        .myallproject2{
+            padding: 120px 120px 0 120px;
+        }
+        .ulmenu{
+            width: 20%;
+        }
+}
+@media screen and (min-width:1200px){
+    .bgbiography{
+        width: 650px;
+        height: 650px;
+    }
+    .biography{
+        width: 80%;
+        height: 80%;
+        top: 40px;
+        right: 40px;
+        >svg{
+            width: 500px;
+            height: 400px;
+            >text{
+                font-size: 4rem;
+            }
+        }
+    }   
+    .career{
+        width: 35%;
+        height: 60%;
+        padding-top: 50px;
+        margin-top: 0px;
+        >a{
+            padding: 10px 25px ;
+        }
+        >h2{
+            font-size: 3.75rem;
+        }
+    }  
+    .project{
+        >div{
+            &:nth-of-type(1){
+                width: 420px;
+                height: 420px; 
+            }
+            &:nth-of-type(2){
+                top: 37%;
+                left: 14%;
+                >figure{
+                    >img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+    .txtproject{
+        height:60%;
+        width: 35%;
+        >h2{
+            font-size: 3.75rem;
+        }
+    }
+    .txtpazhohan{
+        font-size: 3.5rem !important;
+        padding-left: 35px;
+    }
+    .skill{
+        >div{
+            >div{
+                width: 85%;
+                height: 75%;
+                top: 10px;
+                right: 5px;
+            }
+            >figure{
+                >img{
+                    width: 100%;
+                    height:100%;
+                }
+            }
+        }
+    }
+    .txtskill{
+        height: 60%;
+        width: 35%;
+        >h2{
+            font-size: 3.75rem;
+        }
+    }
+}
+
+@mnd (min-width:1400px)edia screen a{
+    a.txtpazhohan{
+        font-size: 3.5rem !important;
+        padding-left: 35px;
+    }
+}

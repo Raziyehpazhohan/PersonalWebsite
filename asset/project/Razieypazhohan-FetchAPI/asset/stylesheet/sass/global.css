@@ -1,0 +1,522 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+main > section {
+  width: 40%;
+  height: 63%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 300;
+  display: none;
+  box-shadow: inset 3px 3px 3px 5px rgb(40, 122, 246);
+  background-color: white;
+  border: 3px solid rgb(40, 122, 246);
+}
+main > section > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main > section > div > span {
+  font-size: 30px;
+  cursor: pointer;
+  width: 100%;
+}
+main > section > div > figure {
+  width: 100%;
+  overflow: hidden;
+  z-index: 300;
+  display: flex;
+  justify-content: center;
+}
+main > section > div > figure > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 28%;
+  height: 28%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+main > section > div > h4 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+}
+main > div {
+  background-color: rgb(198, 233, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section {
+  width: 100%;
+  border: 2px solid rgb(6, 6, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+main > div > section > div:nth-of-type(1) {
+  width: 100%;
+  background-color: rgb(40, 122, 246);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button {
+  display: flex;
+  width: 70%;
+  height: 75%;
+  background-color: white;
+  border: 1px solid rgb(249, 64, 64);
+  border-radius: 12px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button > section:nth-of-type(1) {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button > section:nth-of-type(2) {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button > section:nth-of-type(2) > p {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  color: rgb(219, 17, 17);
+  font-size: 10px;
+  padding-top: 10px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button > section:nth-of-type(2) > h5 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(232, 24, 24);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > button {
+  width: 50%;
+  height: 70%;
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > button > h5 {
+  font-size: 17px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > nav > ul {
+  display: flex;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(1) > nav > ul > li {
+  padding: 16px;
+  color: rgb(243, 243, 243);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  padding-top: 55px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 15%;
+  position: relative;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span {
+  width: 100%;
+  height: 100%;
+  fill: rgb(248, 180, 46);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > svg {
+  stroke: rgb(8, 8, 8);
+  stroke-width: 7px;
+  transform: rotate(116.5deg) translate(21px, 66px);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2) {
+  position: absolute;
+  width: 15px;
+  height: 5px;
+  background-color: rgba(8, 8, 8, 0.791);
+  top: 60px;
+  left: -4px;
+  z-index: 200;
+  transform: rotate(50deg);
+  border-radius: 10px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(3) {
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background-color: rgba(8, 8, 8, 0.791);
+  top: 63px;
+  left: -2px;
+  z-index: 200;
+  transform: rotate(10deg);
+  border-radius: 10px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(4) {
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  background-color: rgba(8, 8, 8, 0.791);
+  top: 115px;
+  left: -2px;
+  z-index: 200;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(5) {
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  background-color: rgba(8, 8, 8, 0.791);
+  top: 155px;
+  left: -2px;
+  z-index: 200;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(6) {
+  position: absolute;
+  top: 48.5px;
+  left: -7px;
+  z-index: 200;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(6) > svg {
+  transform: rotate(-15deg);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(7) {
+  position: absolute;
+  top: 56.5px;
+  left: 17px;
+  z-index: 150;
+  width: 77px;
+  height: 104px;
+  background-color: black;
+  transform: rotate(-15deg);
+  border-radius: 15px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 70%;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > section:nth-of-type(1) {
+  width: 100%;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > section:nth-of-type(1) > div {
+  width: 122%;
+  margin: 80px 0 40px -60px;
+  border: 1px dashed black;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > section:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px 50px 10px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > section:nth-of-type(2) > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > section:nth-of-type(2) > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgb(229, 228, 228);
+  font-size: 13px;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > section:nth-of-type(2) > p:nth-of-type(1) {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+  position: relative;
+  width: 15%;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  fill: rgb(224, 99, 255);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(1) > svg {
+  stroke: black;
+  stroke-width: 7px;
+  transform: rotate(-57deg) translate(7px, 8px);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2) {
+  position: absolute;
+  top: 65px;
+  left: 67px;
+  z-index: 200;
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(2) > svg {
+  fill: rgb(224, 99, 255);
+  transform: rotate(12deg);
+}
+main > div > section > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > span:nth-of-type(3) {
+  position: absolute;
+  top: 75.5px;
+  left: 87.5px;
+  z-index: 150;
+  width: 80px;
+  height: 108px;
+  background-color: black;
+  transform: rotate(12deg);
+  border-radius: 30px;
+}
+main > div > section > div:nth-of-type(2) {
+  width: 100%;
+  background-color: white;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+  position: relative;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(1) > input {
+  font-weight: 500;
+  width: 50%;
+  font-size: 22px;
+  border-radius: 40px;
+  box-shadow: 3px 3px 0px 3px black;
+  margin-top: -60px;
+  padding: 18px 20px 18px 90px;
+  border: 3px solid black;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(1) > input:focus {
+  outline: none;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) {
+  position: absolute;
+  top: -20px;
+  left: 28%;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2) {
+  position: absolute;
+  top: -20px;
+  left: 70%;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(2) > button {
+  width: 12%;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 30px;
+  background-color: white;
+  border: 3px solid black;
+  font-weight: 700;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(3) {
+  width: 17%;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(3) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(3) > button {
+  width: 12%;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 30px;
+  background-color: white;
+  border: 3px solid black;
+  font-weight: 700;
+}
+main > div > section > div:nth-of-type(2) > div:nth-of-type(3) > button:nth-of-type(3) {
+  width: 22%;
+}
+main > div > section > div:nth-of-type(3) {
+  width: 100%;
+  background-color: white;
+}
+main > div > section > div:nth-of-type(3) > div {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > div > section > div:nth-of-type(3) > div > h4 {
+  width: 100%;
+  margin-right: 250px;
+  font-size: 30px;
+  font-weight: 800;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+main > div > section > div:nth-of-type(3) > div > article {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main > div > section > div:nth-of-type(3) > div > article > div {
+  width: 32%;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px 0px black;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  border-radius: 20px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) {
+  width: 100%;
+  display: flex;
+  padding: 6px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section {
+  padding: 10px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section:nth-of-type(1) {
+  width: 25%;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section:nth-of-type(1) > figure {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section:nth-of-type(1) > figure > img {
+  height: 70px;
+  width: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section:nth-of-type(2) {
+  width: 75%;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section:nth-of-type(2) > h3 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(1) > section:nth-of-type(2) > p {
+  margin-top: -18px;
+  font-size: 14px;
+  color: rgb(175, 167, 167);
+  font-weight: 500;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(2) {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -25px;
+  margin-left: 100px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(2) > button {
+  border: none;
+  background-color: rgb(242, 238, 238);
+  margin: 3px;
+  font-size: 9px;
+  font-weight: 800;
+  border-radius: 15px;
+  padding: 7px;
+  color: rgb(104, 104, 104);
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(3) {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(3) > button {
+  padding: 7px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(3) > button:nth-of-type(1) {
+  color: rgb(53, 137, 254);
+  background-color: white;
+  border: none;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(3) > button:nth-of-type(2) {
+  border: 3px solid black;
+  box-shadow: 2px 2px 2px 0 black;
+  background-color: rgb(29, 113, 230);
+  color: rgb(227, 227, 227);
+  letter-spacing: 0.5px;
+}
+main > div > section > div:nth-of-type(3) > div > article > div > div:nth-of-type(3) > button:nth-of-type(2):hover {
+  box-shadow: none;
+}/*# sourceMappingURL=global.css.map */
